@@ -83,14 +83,6 @@ async function start() {
   await geminiService.init();
 
   app.listen(PORT, () => {
-    console.log('');
-    console.log('  ████████╗██████╗  █████╗  ██████╗███████╗███╗   ███╗██╗███╗   ██╗██████╗ ');
-    console.log('  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██╔════╝████╗ ████║██║████╗  ██║██╔══██╗');
-    console.log('     ██║   ██████╔╝███████║██║     █████╗  ██╔████╔██║██║██╔██╗ ██║██║  ██║');
-    console.log('     ██║   ██╔══██╗██╔══██║██║     ██╔══╝  ██║╚██╔╝██║██║██║╚██╗██║██║  ██║');
-    console.log('     ██║   ██║  ██║██║  ██║╚██████╗███████╗██║ ╚═╝ ██║██║██║ ╚████║██████╔╝');
-    console.log('     ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═════╝ ');
-    console.log('');
     console.log(`  AI-Powered C++ Code Execution Visualizer`);
     console.log(`  Server running on http://localhost:${PORT}`);
     console.log(`  Health check: http://localhost:${PORT}/api/health`);
